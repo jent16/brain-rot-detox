@@ -1,0 +1,13 @@
+name: CI
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-check: # This is the "Status Check" name
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dummy Check
+        run: echo "Initializing status checks for StormForge..."
