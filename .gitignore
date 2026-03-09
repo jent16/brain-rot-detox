@@ -24,3 +24,10 @@ apps/extension/.plasmo/
 # System Files
 .DS_Store
 Thumbs.db
+# Python
+__pycache__/
+venv/
+.env
+
+# OS
+.DS_Store
